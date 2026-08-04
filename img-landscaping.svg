@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-labelledby="t1">
+    <title id="t1">Illustration of a landscaped garden path with hedges and trees</title>
+    <rect width="400" height="240" fill="#e8f5e9"/>
+    <circle cx="345" cy="45" r="26" fill="#ffd76a"/>
+    <rect x="0" y="150" width="400" height="90" fill="#2e7d32"/>
+    <path d="M0 150 C100 130 300 170 400 145 L400 240 L0 240 Z" fill="#256428"/>
+    <path d="M60 240 L100 150 L150 150 L130 240 Z" fill="#d8cdb5"/>
+    <circle cx="70" cy="150" r="26" fill="#43a047"/>
+    <circle cx="45" cy="165" r="18" fill="#2e7d32"/>
+    <circle cx="270" cy="155" r="22" fill="#43a047"/>
+    <circle cx="300" cy="170" r="16" fill="#256428"/>
+    <rect x="196" y="120" width="8" height="40" fill="#7a5230"/>
+    <circle cx="200" cy="105" r="30" fill="#2e7d32"/>
+    <circle cx="180" cy="120" r="20" fill="#66bb6a"/>
+    <circle cx="220" cy="120" r="20" fill="#256428"/>
+</svg>

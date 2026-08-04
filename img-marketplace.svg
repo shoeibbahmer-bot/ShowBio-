@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-labelledby="t2">
+    <title id="t2">Illustration of a plant marketplace shelf with potted plants</title>
+    <rect width="400" height="240" fill="#f8faf8"/>
+    <rect x="40" y="80" width="320" height="10" rx="4" fill="#256428"/>
+    <rect x="40" y="170" width="320" height="10" rx="4" fill="#256428"/>
+
+    <g>
+        <path d="M70 80 L110 80 L104 60 A22 22 0 0 0 76 60 Z" fill="#2e7d32"/>
+        <path d="M78 60 L102 60 L98 40 L82 40 Z" fill="#1b5e20"/>
+    </g>
+    <g>
+        <path d="M140 80 L172 80 L167 55 A16 16 0 0 0 145 55 Z" fill="#66bb6a"/>
+        <path d="M147 55 L165 55 L162 34 L150 34 Z" fill="#1b5e20"/>
+    </g>
+    <g>
+        <path d="M210 80 L250 80 L244 52 A20 20 0 0 0 216 52 Z" fill="#43a047"/>
+        <path d="M219 52 L241 52 L237 30 L223 30 Z" fill="#1b5e20"/>
+    </g>
+    <g>
+        <path d="M290 80 L322 80 L317 58 A16 16 0 0 0 295 58 Z" fill="#256428"/>
+        <path d="M297 58 L315 58 L312 38 L300 38 Z" fill="#1b5e20"/>
+    </g>
+
+    <g>
+        <path d="M100 170 L136 170 L131 145 A18 18 0 0 0 105 145 Z" fill="#43a047"/>
+        <path d="M108 145 L128 145 L124 122 L112 122 Z" fill="#1b5e20"/>
+    </g>
+    <g>
+        <path d="M180 170 L214 170 L209 148 A17 17 0 0 0 185 148 Z" fill="#2e7d32"/>
+        <path d="M187 148 L207 148 L203 128 L191 128 Z" fill="#1b5e20"/>
+    </g>
+    <g>
+        <path d="M255 170 L295 170 L289 143 A20 20 0 0 0 261 143 Z" fill="#66bb6a"/>
+        <path d="M264 143 L286 143 L282 118 L268 118 Z" fill="#1b5e20"/>
+    </g>
+</svg>

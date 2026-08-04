@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" role="img" aria-labelledby="heroTitle">
+    <title id="heroTitle">Illustration of a potted plant growing beside a sustainability cycle icon</title>
+    <defs>
+        <linearGradient id="potGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#2e7d32"/>
+            <stop offset="1" stop-color="#256428"/>
+        </linearGradient>
+        <linearGradient id="leafGradA" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#66bb6a"/>
+            <stop offset="1" stop-color="#2e7d32"/>
+        </linearGradient>
+        <linearGradient id="leafGradB" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#2e7d32"/>
+            <stop offset="1" stop-color="#1b5e20"/>
+        </linearGradient>
+    </defs>
+
+    <circle cx="260" cy="230" r="220" fill="#e8f5e9"/>
+    <ellipse cx="260" cy="430" rx="210" ry="26" fill="#1b5e20" opacity="0.08"/>
+
+    <circle cx="420" cy="80" r="34" fill="#ffd76a"/>
+    <circle cx="90" cy="360" r="14" fill="#66bb6a" opacity="0.6"/>
+    <circle cx="120" cy="120" r="9" fill="#2e7d32" opacity="0.5"/>
+    <circle cx="440" cy="260" r="10" fill="#256428" opacity="0.4"/>
+
+    <path d="M110 250 a150 150 0 0 1 300 0" fill="none" stroke="#2e7d32" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round" opacity="0.5"/>
+
+    <path d="M175 300 L345 300 L325 400 A170 170 0 0 1 195 400 Z" fill="url(#potGrad)"/>
+    <rect x="165" y="285" width="190" height="26" rx="8" fill="#1b5e20"/>
+
+    <path d="M260 300 C260 230 200 210 160 190 C170 250 210 285 260 300 Z" fill="url(#leafGradA)"/>
+    <path d="M260 300 C260 230 320 210 360 190 C350 250 310 285 260 300 Z" fill="url(#leafGradB)"/>
+    <path d="M260 300 C250 200 260 140 240 90 C300 130 300 220 280 290 Z" fill="#43a047"/>
+    <path d="M260 300 C270 200 260 140 280 90 C220 130 220 220 240 290 Z" fill="#256428"/>
+    <ellipse cx="260" cy="298" rx="16" ry="8" fill="#1b5e20" opacity="0.3"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t5">
+    <title id="t5">Illustration of an upward growth chart topped with leaves, symbolizing sustainable growth</title>
+    <rect width="400" height="260" fill="#f8faf8"/>
+    <line x1="40" y1="220" x2="380" y2="220" stroke="#e5e7eb" stroke-width="2"/>
+
+    <rect x="70" y="160" width="46" height="60" rx="6" fill="#a9d9bd"/>
+    <rect x="150" y="120" width="46" height="100" rx="6" fill="#66bb6a"/>
+    <rect x="230" y="80" width="46" height="140" rx="6" fill="#2e7d32"/>
+    <rect x="310" y="50" width="46" height="170" rx="6" fill="#256428"/>
+
+    <path d="M93 160 C80 145 82 128 96 120 C92 138 96 152 108 160 Z" fill="#2e7d32"/>
+    <path d="M173 120 C160 105 162 88 176 80 C172 98 176 112 188 120 Z" fill="#43a047"/>
+    <path d="M253 80 C240 65 242 48 256 40 C252 58 256 72 268 80 Z" fill="#2e7d32"/>
+    <path d="M333 50 C320 35 322 18 336 10 C332 28 336 42 348 50 Z" fill="#1b5e20"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-labelledby="t4">
+    <title id="t4">Illustration of a plantation drive with a row of saplings being watered</title>
+    <rect width="400" height="240" fill="#e8f5e9"/>
+    <rect x="0" y="180" width="400" height="60" fill="#256428"/>
+
+    <g>
+        <rect x="78" y="150" width="6" height="34" fill="#7a5230"/>
+        <circle cx="81" cy="145" r="18" fill="#43a047"/>
+    </g>
+    <g>
+        <rect x="148" y="140" width="7" height="44" fill="#7a5230"/>
+        <circle cx="151" cy="133" r="24" fill="#2e7d32"/>
+    </g>
+    <g>
+        <rect x="228" y="150" width="6" height="34" fill="#7a5230"/>
+        <circle cx="231" cy="145" r="18" fill="#66bb6a"/>
+    </g>
+    <g>
+        <rect x="298" y="142" width="7" height="42" fill="#7a5230"/>
+        <circle cx="301" cy="135" r="22" fill="#256428"/>
+    </g>
+
+    <path d="M300 60 L340 90 L332 100 L300 78 Z" fill="#2e7d32"/>
+    <path d="M296 100 C280 96 268 106 268 120 C268 132 280 138 296 132 C310 128 316 112 310 100 C306 92 300 94 296 100 Z" fill="#43a047"/>
+    <circle cx="255" cy="140" r="3" fill="#66bb6a"/>
+    <circle cx="248" cy="150" r="3" fill="#2e7d32"/>
+    <circle cx="242" cy="160" r="3" fill="#256428"/>
+</svg>
