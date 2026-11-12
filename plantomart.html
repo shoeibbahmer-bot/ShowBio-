@@ -15,13 +15,54 @@
     <meta property="og:url" content="https://showbio.in/plantomart.html">
     <meta property="og:site_name" content="ShowBio Pvt. Ltd.">
 
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:image" content="https://showbio.in/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://showbio.in/og-image.png">
+    <meta name="theme-color" content="#2e7d32">
+
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Service",
+                "@id": "https://showbio.in/plantomart.html#service",
+                "name": "Plantomart",
+                "serviceType": "Plants and gardening marketplace",
+                "description": "Plantomart.com connects customers with plants, planters, gardening products and gardening services. A ShowBio Pvt. Ltd. vertical.",
+                "url": "https://showbio.in/plantomart.html",
+                "areaServed": { "@type": "Country", "name": "India" },
+                "provider": {
+                    "@type": "Organization",
+                    "@id": "https://showbio.in/#organization",
+                    "name": "ShowBio Pvt. Ltd.",
+                    "url": "https://showbio.in/",
+                    "founder": { "@type": "Person", "@id": "https://showbio.in/mohammed-shoeib-ahmer.html#person", "name": "Mohammed Shoeib Ahmer" }
+                },
+                "sameAs": ["https://www.plantomart.com/"]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "ShowBio", "item": "https://showbio.in/" },
+                    { "@type": "ListItem", "position": 2, "name": "Plantomart", "item": "https://showbio.in/plantomart.html" }
+                ]
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
 
@@ -29,7 +70,7 @@
 
     <header class="site-header">
         <nav class="navbar container">
-            <a href="index.html" class="logo-mark" aria-label="ShowBio home">
+            <a href="/" class="logo-mark" aria-label="ShowBio home">
                 <svg class="leaf-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12 2 C6 4 4 10 8 14 C10 16 12 15 12 12 C12 9 12 5 12 2Z" fill="#66bb6a" transform="rotate(-18 12 12)"/>
                     <path d="M12 2 C18 4 20 10 16 14 C14 16 12 15 12 12 C12 9 12 5 12 2Z" fill="#2e7d32" transform="rotate(18 12 12)"/>
@@ -37,7 +78,7 @@
                 <span class="logo-word">SHOW<span class="logo-accent">BIO</span></span>
             </a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="index.html#about">About</a></li>
+                <li><a href="/#about">About</a></li>
                 <li class="has-dropdown">
                     <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Verticals <span class="chevron" aria-hidden="true">&#9662;</span></button>
                     <ul class="dropdown-menu">
@@ -47,11 +88,11 @@
                         <li><a href="showplants.html">💚 ShowPlants</a></li>
                     </ul>
                 </li>
-                <li><a href="index.html#leadership">Leadership</a></li>
-                <li class="nav-contact-mobile"><a href="index.html#contact" class="btn-nav">Contact</a></li>
+                <li><a href="mohammed-shoeib-ahmer.html">Founder</a></li>
+                <li class="nav-contact-mobile"><a href="/#contact" class="btn-nav">Contact</a></li>
             </ul>
             <div class="nav-right">
-                <a href="index.html#contact" class="btn-nav desktop-cta">Contact</a>
+                <a href="/#contact" class="btn-nav desktop-cta">Contact</a>
                 <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
                     <span></span><span></span><span></span>
                 </button>
@@ -73,11 +114,11 @@
                     </p>
                     <div class="hero-cta">
                         <a href="https://www.plantomart.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit Plantomart.com &nearr;</a>
-                        <a href="index.html" class="btn btn-outline">&larr; Back to ShowBio</a>
+                        <a href="/" class="btn btn-outline">&larr; Back to ShowBio</a>
                     </div>
                 </div>
                 <div class="hero-media reveal">
-                    <img src="assets/img-marketplace.svg" alt="Illustration of a plant marketplace shelf with potted plants" width="400" height="240">
+                    <img src="img-marketplace.svg" alt="Illustration of a plant marketplace shelf with potted plants" width="400" height="240">
                 </div>
             </div>
         </section>
@@ -122,8 +163,8 @@
 
     <footer class="site-footer">
         <div class="container footer-inner">
-            <p>&copy; 2026 ShowBio Pvt. Ltd. &middot; showbio.in &middot; Hyderabad, Telangana, India</p>
-            <p class="footer-tag">Show Love for Plants 🌿</p>
+            <p>&copy; 2026 ShowBio Pvt. Ltd. &middot; Founded by <a href="mohammed-shoeib-ahmer.html">Mohammed Shoeib Ahmer</a> &middot; Hyderabad, Telangana, India</p>
+            <p class="footer-tag">Show Love for Plants 🌿 &middot; <a href="https://www.instagram.com/showbio.official/" target="_blank" rel="noopener">Instagram</a> &middot; <a href="https://www.linkedin.com/company/showbio-pvt-ltd/" target="_blank" rel="noopener">LinkedIn</a></p>
         </div>
     </footer>
 

@@ -1,0 +1,47 @@
+# ShowBio – SEO redirects, caching and compression
+Options -Indexes
+
+# Block the deployment's .git folder and repo files from the public web
+RedirectMatch 404 /\.git
+RedirectMatch 404 /README\.md$
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# 1. Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://showbio.in%{REQUEST_URI} [L,R=301]
+
+# 2. www.showbio.in -> showbio.in (one canonical host)
+RewriteCond %{HTTP_HOST} ^www\.showbio\.in$ [NC]
+RewriteRule ^ https://showbio.in%{REQUEST_URI} [L,R=301]
+
+# 3. /index.html -> / (avoid duplicate home page)
+RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
+RewriteRule ^index\.html$ / [L,R=301]
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/html "access plus 1 hour"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"
+ExpiresByType image/svg+xml "access plus 6 months"
+ExpiresByType image/png "access plus 6 months"
+ExpiresByType image/jpeg "access plus 6 months"
+ExpiresByType image/webp "access plus 6 months"
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript image/svg+xml application/xml text/xml
+</IfModule>
+
+# Basic security headers
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
